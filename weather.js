@@ -14,7 +14,7 @@ const art = require('iris-ascii-art')
 // const {Fonts} = require('figlet/fonts')
 const AsciiTable = require('ascii-table')
 
-art.Figlet.fontPath = 'node_modules/figlet/fonts/'
+art.Figlet.fontPath = (__dirname) + '/node_modules/figlet/fonts/'
 
 let apiKey = 'b4fd157883ded4fd523995f56ad048b3'
 let city = argv.c || 'Ottawa'

@@ -2,14 +2,14 @@
   "name": "cli-weather",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "weather.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": "./weather.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "ascii-art": "^1.4.2",
     "ascii-table": "0.0.9",
