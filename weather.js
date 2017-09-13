@@ -6,11 +6,15 @@ const argv = require('yargs')
 const chalk = require('chalk')
 const moment = require('moment')
 const figlet = require('figlet')
+const fontPath = require('figlet')
 const CLI = require('clui')
 const Spinner = CLI.Spinner
 const path = require('path')
 const art = require('iris-ascii-art')
+// const {Fonts} = require('figlet/fonts')
 const AsciiTable = require('ascii-table')
+
+art.Figlet.fontPath = 'node_modules/figlet/fonts/'
 
 let apiKey = 'b4fd157883ded4fd523995f56ad048b3'
 let city = argv.c || 'Ottawa'
